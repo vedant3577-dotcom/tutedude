@@ -1,10 +1,11 @@
 // Import axios
 import axios from "axios";
 
-// Backend URL
+// Create backend connection
 const API = axios.create({
 
-    baseURL: "http://localhost:5000"
+    // Render Backend URL
+    baseURL: "https://todo-backend-igj1.onrender.com"
 
 });
 
