@@ -1,0 +1,220 @@
+/*Whole Page*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+}
+
+
+
+.container{
+
+    width:650px;
+
+    margin:40px auto;
+
+    background:#ffffff;
+
+    padding:30px;
+
+    border-radius:10px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+
+}
+
+/* Heading */
+
+h1{
+
+    text-align:center;
+
+    color:#2c3e50;
+
+    margin-bottom:25px;
+
+}
+
+h2{
+
+    color:#444;
+
+    margin:20px 0 15px;
+
+}
+
+/* Label */
+
+label{
+
+    display:block;
+
+    margin-bottom:6px;
+
+    font-weight:600;
+
+    color:#555;
+
+}
+
+/* Inputs */
+
+input,
+textarea{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid #dcdcdc;
+
+    border-radius:6px;
+
+    font-size:15px;
+
+    margin-bottom:15px;
+
+    outline:none;
+
+}
+
+input:focus,
+textarea:focus{
+
+    border-color:#4f8ef7;
+
+}
+
+/* Buttons*/
+
+button{
+
+    padding:10px 18px;
+
+    border:none;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+    color:white;
+
+    font-size:14px;
+
+    margin-right:8px;
+
+    transition:.3s;
+
+}
+
+/* Add Button */
+
+.form-btn{
+
+    background:#4f8ef7;
+
+}
+
+.form-btn:hover{
+
+    background:#3976dc;
+
+}
+
+/* Edit */
+
+.edit-btn{
+
+    background:#28a745;
+
+}
+
+.edit-btn:hover{
+
+    background:#218838;
+
+}
+
+/* Delete */
+
+.delete-btn{
+
+    background:#dc3545;
+
+}
+
+.delete-btn:hover{
+
+    background:#bb2d3b;
+
+}
+
+/* Cancel */
+
+.cancel-btn{
+
+    background:#6c757d;
+
+}
+
+.cancel-btn:hover{
+
+    background:#565e64;
+
+}
+
+/*Task Card*/
+
+.task{
+
+    background:#fafafa;
+
+    border:1px solid #e5e5e5;
+
+    border-radius:8px;
+
+    padding:15px;
+
+    margin-top:15px;
+
+}
+
+.task h3{
+
+    color:#2c3e50;
+
+    margin-bottom:8px;
+
+}
+
+.task p{
+
+    color:#555;
+
+    margin-bottom:8px;
+
+}
+
+.status{
+
+    font-weight:bold;
+
+    color:#4f8ef7;
+
+}
+
+hr{
+
+    border:none;
+
+    border-top:1px solid #ececec;
+
+    margin:15px 0;
+
+}
